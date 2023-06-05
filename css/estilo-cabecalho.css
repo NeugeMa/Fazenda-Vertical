@@ -1,0 +1,42 @@
+.cabecalho{
+    background-color: rgb(177, 184, 118);
+    padding: 1% 1%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.titulo-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(4, 68, 13);
+}
+.navbar{
+    margin: 0 1%;
+}
+.navbar nav ul{
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+}
+.navbar nav ul li{
+    padding: 0 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(4, 68, 13);
+    background-color: rgba(4, 68, 13, 0.397);
+    border: 3px rgb(4, 68, 13);
+    border-style: dashed;
+    border-radius: 30px;
+    padding: 1em;
+}
