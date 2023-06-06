@@ -1,0 +1,20 @@
+@media(max-width:768px){
+    body{
+        font-size: 14px;
+    }
+    .cabecalho{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;        
+    }
+    .navbar{
+        margin: 2vh 0;
+    }
+    .navbar nav ul { 
+        flex-direction: row;
+    }
+    .navbar nav ul li{
+        font-size: 0.9em;
+    }
+}
