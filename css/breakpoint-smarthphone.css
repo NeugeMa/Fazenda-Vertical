@@ -29,4 +29,30 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    
+    }
+    .card h3{
+        font-size: 2em;
+    }
+    .card img{
+        height: 30vh;
+        width: 60vw;
+        border-radius: 30px;
+    }
+    .card p{
+        width: 100%;
+        text-align: center;
+    }
+    .grupo nav ul{
+        flex-direction: column;
+    }
+    .grupo nav ul li{
+        width: 200px;
+        padding: 2% 0;
+    }
+    .form-holder{
+        width: 90vw;
+    }
+    .input-form{
+        width: 40vw;
+    }
+}
