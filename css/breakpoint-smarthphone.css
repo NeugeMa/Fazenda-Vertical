@@ -1,0 +1,32 @@
+@media(max-width:375px){
+    body{
+        font-size: 12px;
+    }
+    .cabecalho{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;        
+    }
+    .navbar{
+        margin: 2vh 0;
+    }
+    .navbar nav ul { 
+        flex-direction: column;
+        gap: 8px;
+    }
+    .navbar nav ul li{
+        text-align: center;
+    }
+    .navbar nav ul li a{
+        width: 200px;
+    }
+    .textos h2{
+        text-align: center;
+        font-size: 2em;
+    }
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
