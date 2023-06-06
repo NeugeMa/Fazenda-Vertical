@@ -17,4 +17,27 @@
     .navbar nav ul li{
         font-size: 0.9em;
     }
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .card h3{
+        font-size: 2em;
+    }
+    .card img{
+        height: 55vh;
+        width: 50vw;
+        border-radius: 40px;
+    }
+    .card p{
+        width: 100%;
+        text-align: center;
+    }
 }
