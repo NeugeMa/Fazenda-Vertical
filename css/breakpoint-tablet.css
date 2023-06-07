@@ -1,0 +1,43 @@
+@media(max-width:768px){
+    body{
+        font-size: 14px;
+    }
+    .cabecalho{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;        
+    }
+    .navbar{
+        margin: 2vh 0;
+    }
+    .navbar nav ul { 
+        flex-direction: row;
+    }
+    .navbar nav ul li{
+        font-size: 0.9em;
+    }
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .card h3{
+        font-size: 2em;
+    }
+    .card img{
+        height: 55vh;
+        width: 50vw;
+        border-radius: 40px;
+    }
+    .card p{
+        width: 100%;
+        text-align: center;
+    }
+}
